@@ -5,7 +5,8 @@
   "types": "./types/index.d.ts",
   "license": "MIT",
   "author": {
-    "name": "Dmitry Svet"
+    "name": "Dmitry Svet",
+    "email": "dmitry.svet@gmail.com"
   },
   "icon": "./.claude-plugin/icon.png"
 }
