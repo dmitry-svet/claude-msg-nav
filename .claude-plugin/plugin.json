@@ -1,0 +1,11 @@
+{
+  "name": "msg-nav",
+  "version": "1.0.0",
+  "description": "Band above the prompt: prev/next arrows and a preview to jump between assistant text messages",
+  "types": "./types/index.d.ts",
+  "license": "MIT",
+  "author": {
+    "name": "Dmitry Svet"
+  },
+  "icon": "./.claude-plugin/icon.png"
+}

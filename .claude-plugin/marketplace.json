@@ -1,0 +1,5 @@
+{
+  "name": "claude-msg-nav",
+  "owner": { "name": "Dmitry Svet" },
+  "plugins": [{ "name": "msg-nav", "source": "./" }]
+}
