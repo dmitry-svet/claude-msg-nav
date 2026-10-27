@@ -25,3 +25,7 @@ Commands: `/msg-prev`, `/msg-next` (jump), `/msg-nav` (show or hide the band). B
 ```
 
 Only messages written after the mod loaded are listed; the list lives in the session state and survives a reload of the mod.
+
+## What it reads and sends
+
+The mod hooks `session.append` to read the text of the assistant's own messages in the current session, keeps the list, cursor and band state in the plugin's session state (`$.state`), registers three slash commands, draws the band and asks the surface to scroll the transcript. It makes no network calls, reads no files, runs no processes and sends nothing anywhere.
