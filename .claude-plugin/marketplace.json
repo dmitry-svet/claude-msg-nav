@@ -1,5 +1,13 @@
 {
   "name": "claude-msg-nav",
-  "owner": { "name": "Dmitry Svet" },
-  "plugins": [{ "name": "msg-nav", "source": "./" }]
+  "owner": {
+    "name": "Dmitry Svet"
+  },
+  "description": "msg-nav: a band above the Claude Code prompt to jump between assistant messages",
+  "plugins": [
+    {
+      "name": "msg-nav",
+      "source": "./"
+    }
+  ]
 }
